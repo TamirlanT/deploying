@@ -1,0 +1,149 @@
+.tagbanner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.component__tittle {
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.5px;
+    padding-bottom: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blogtags {
+    width: 346px;
+    padding-top: 120px;
+    padding-left: 52px;
+    width: 346px;
+}
+
+.tag__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 24px;
+}
+
+.tag__button {
+    padding: 9px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F4F0EC;
+    border: none;
+
+    color: #292F36;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+}
+
+.tagcontent__link:not(:last-child):after {
+    content: '  /';
+}
+
+
+.tagcontent {
+    display: flex;
+    gap: 52px;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.component {
+    width: 799px;
+}
+
+.component__tittle {
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 1px;
+    padding-bottom: 11px;
+}
+
+.image {
+    border-radius: 50px;
+    background: #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 799px;
+    height: 539px;
+    flex-shrink: 0;
+}
+
+.component__info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+}
+
+.component__date {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}
+
+.tagcontent__link {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}
+
+.component__description {
+    margin-top: 48px;
+}
+
+.component__text {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+}
+
+
+
+.activated {
+    border-radius: 10px;
+    background: #292F36;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+}
